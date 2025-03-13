@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juno0\\source\\repos\\Program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|C:\\Users\\juno0\\source\\repos\\Program\\Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|solutionrelative:Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD2CF19-6395-4FA8-A76D-E8D90FB93F52}|Class1th (Time Complexity \u0026 Space Compiexity\\Class1th (Time Complexity \u0026 Space Compiexity.vcxproj|C:\\Users\\juno0\\source\\repos\\Program\\Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1BD2CF19-6395-4FA8-A76D-E8D90FB93F52}|Class1th (Time Complexity \u0026 Space Compiexity\\Class1th (Time Complexity \u0026 Space Compiexity.vcxproj|solutionrelative:Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source1.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\source\\repos\\Program\\Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp",
+              "RelativeDocumentMoniker": "Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp",
+              "ToolTip": "C:\\Users\\juno0\\source\\repos\\Program\\Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp",
+              "RelativeToolTip": "Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T09:52:24.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program1.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\source\\repos\\Program\\Program\\Program1.cpp",
+              "RelativeDocumentMoniker": "Program\\Program1.cpp",
+              "ToolTip": "C:\\Users\\juno0\\source\\repos\\Program\\Program\\Program1.cpp*",
+              "RelativeToolTip": "Program\\Program1.cpp*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T09:12:44.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
