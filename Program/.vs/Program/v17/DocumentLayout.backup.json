@@ -5,22 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|solutionrelative:Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9D60B0E-AF1A-4553-B580-0064AF8594FA}|Class4th (\uBBF8\uC644\uC131)\\Class4th (\uBBF8\uC644\uC131).vcxproj|C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class4th (\uBBF8\uC644\uC131)\\Source4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B9D60B0E-AF1A-4553-B580-0064AF8594FA}|Class4th (\uBBF8\uC644\uC131)\\Class4th (\uBBF8\uC644\uC131).vcxproj|solutionrelative:Class4th (\uBBF8\uC644\uC131)\\Source4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49E46E69-9891-4F1E-8F34-EE159A0B7F71}|Class3\\Class3.vcxproj|C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class3\\Source3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49E46E69-9891-4F1E-8F34-EE159A0B7F71}|Class3\\Class3.vcxproj|solutionrelative:Class3\\Source3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC980404-F72E-4648-B327-061497998F37}|Class2th\\Class2th.vcxproj|C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class2th\\Source2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BC980404-F72E-4648-B327-061497998F37}|Class2th\\Class2th.vcxproj|solutionrelative:Class2th\\Source2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD2CF19-6395-4FA8-A76D-E8D90FB93F52}|Class1th (Time Complexity \u0026 Space Compiexity\\Class1th (Time Complexity \u0026 Space Compiexity.vcxproj|C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1BD2CF19-6395-4FA8-A76D-E8D90FB93F52}|Class1th (Time Complexity \u0026 Space Compiexity\\Class1th (Time Complexity \u0026 Space Compiexity.vcxproj|solutionrelative:Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,34 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source4.cpp",
-              "DocumentMoniker": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class4th (\uBBF8\uC644\uC131)\\Source4.cpp",
-              "RelativeDocumentMoniker": "Class4th (\uBBF8\uC644\uC131)\\Source4.cpp",
-              "ToolTip": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class4th (\uBBF8\uC644\uC131)\\Source4.cpp",
-              "RelativeToolTip": "Class4th (\uBBF8\uC644\uC131)\\Source4.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T10:21:02.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source3.cpp",
-              "DocumentMoniker": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class3\\Source3.cpp",
-              "RelativeDocumentMoniker": "Class3\\Source3.cpp",
-              "ToolTip": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class3\\Source3.cpp",
-              "RelativeToolTip": "Class3\\Source3.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T09:37:05.606Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -66,35 +24,10 @@
               "RelativeDocumentMoniker": "Program\\Program1.cpp",
               "ToolTip": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Program\\Program1.cpp",
               "RelativeToolTip": "Program\\Program1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T09:09:05.44Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Source2.cpp",
-              "DocumentMoniker": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class2th\\Source2.cpp",
-              "RelativeDocumentMoniker": "Class2th\\Source2.cpp",
-              "ToolTip": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class2th\\Source2.cpp",
-              "RelativeToolTip": "Class2th\\Source2.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T09:09:03.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Source1.cpp",
-              "DocumentMoniker": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp",
-              "RelativeDocumentMoniker": "Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp",
-              "ToolTip": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp",
-              "RelativeToolTip": "Class1th (Time Complexity \u0026 Space Compiexity\\Source1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T09:52:24.241Z"
             }
           ]
         }
