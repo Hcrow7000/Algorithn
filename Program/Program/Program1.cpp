@@ -1,45 +1,45 @@
 #include <iostream>
 using namespace std;
 
-#define SIZE 4
+#define SIZE 8
 
-int Find(int list[], int left, int right) 
+void binary_serach(int list[],int key )
 {
-	if (left == right) {
-		return list[left];
-	}
-	else 
+	int left = 0;
+	int right = SIZE - 1;
+	
+	while (left <= right)
 	{
-		int leftMax = Find(list, left, (left + right) / 2);
-		int rightMax = Find(list, (left + right) / 2 + 1, right);
+		int pivot = (left + right) / 2;
 
-		if (leftMax < rightMax) {
-			return rightMax;
+		if (list[pivot] == key) {
+			cout << "Key Found : " << list[pivot] << endl;
+
+			return;
 		}
-		else {
-			return leftMax;
+		else if (list[pivot] > key)
+		{
+			right = pivot - 1;
+		}
+		else
+		{
+			left = pivot + 1;
 		}
 
 	}
+
+	cout << "Not Key Found" << endl;
 
 }
 
 int main() 
 {
-#pragma region 분할 정복
-	//분할 (Divide) : 주어진 문제를 두개 혹은 그 이상의 형식으로 나눈다.
+#pragma region 이진 탐색
+	
+	int list[SIZE] = {5,6,11,13,27,55,66,99};
 
-	//정복 (Conquer) :나누어진 문제를 재귀적으로 해결해서 나누어진 문제를
-	// 더 이상 나누어서 문제가 필요없을 때까지 계속 분할합니다.
+	binary_serach(list, 3);
 
-	//통합 (Combine) : 나누어서 해결한 문제들을 통합해서 원래 문제의 해답을 생성합니다.
-
-	int list[SIZE] = { 20,15,99,1 };
-
-	int size = sizeof(list) / sizeof(int);
-
-
-	cout << Find(list, 0, size - 1);
 
 #pragma endregion 
 	
