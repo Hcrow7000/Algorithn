@@ -1,59 +1,76 @@
 #include <iostream>
 using namespace std;
 
-#define SIZE 6
+#define SIZE 8
 
-void QuickSort(int list[], int start, int end)
+void combine(int list[],int start,int middle,int end)
 {
-	int pivot = start;
+	int count = 0;
+	int left = start;
+	int right = middle + 1;
 
-	int left = start + 1;
+	int* container = new int[end - start + 1];
 
-	int right = end;
+	// 두 부분의 배열을 병합합니다.
 
-	while (left <= right)
+	while (left <= middle && right <= end)
 	{
-		while (left <= end && list[pivot] >= list[left])
+		if (list[left] <= list[right])
 		{
-			left++;
-		}
-		while (right > start && list[pivot] <= list[right])
-		{
-			right--;
-		}
-
-		if (left > right) 
-		{
-			std::swap(list[pivot], list[right]);
+			container[count++] = list[left++];
 
 		}
-		else 
+		else
 		{
-			std::swap(list[left], list[right]);
+			container[count++] = list[right++];
 		}
+
 	}
 
 
 }
 
+int merge_sort(int list[], int start, int end)
+{
+	if (start < end) {
+		int middle = (start + end) / 2;
+
+		merge_sort(list, start, middle);
+		merge_sort(list, middle + 1, end);
+
+
+	}
+
+
+
+
+}
+
+
+
 int main() 
 {
-#pragma region 퀵 정렬
-	// 기준점을획득한 다음 기준점을 기준으로 배열을 나누고 한쪽에는
-	// 기준점보다 작은 값들이 위치하게 하고 다른 한쪽에는 기준점보다
-	// 큰 값들이 위치하도록 정렬합니다
+#pragma region 병합 정렬
+	// 하나의 리스트를 두 개의 균일한 크기로 분할하고 분할된
+	// 부분 리스트를 정렬한 다음, 두 개의 정렬된 부분 리스트를
+	// 합하여 전체가 정렬된 리스트가 되게 하는 방법입니다.
 
-	// 나누어진 하위 배열에 대해 재귀적으로 퀵 정렬을 호출하여
-	// 모든 배열이 기본 배열이 될때까지 반복하면서 정렬하는 알고리즘입니다.
+	// 1. 리스트의 길이가 0 또는 1이면 이미 정렬된 것으로 봅니다.
+	
+	// 2. 그렇지 않은경우
 
-	int list[SIZE] = { 1,4,3,2,5,6 };
+	// 2-1. 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의
+	// 두부분 리스트로 나눕니다.
 
-	QuickSort(list, 0, SIZE - 1);
+	// 2-2 각 부분 리스트를 재귀적으로 병합 정렬을 이용하여 정렬합니다.
 
-	for (int i = 0; i < SIZE; i++) 
-	{
-		cout << list[i] << " ";
-	}
+	// 2-3. 두 부분 리스트를 다시 하나의 정렬된 리스트로 병합합니다.
+
+	int list[SIZE] = { 3,5,2,7,4,1,6,8 };
+
+	
+	merge_sort(list, 0, SIZE - 1);
+	combine(list, );
 
 #pragma endregion 
 	
