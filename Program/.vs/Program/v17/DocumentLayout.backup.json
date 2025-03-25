@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|solutionrelative:Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D08EC5-D470-4F02-90C9-54433E045FB3}|Class12th\\Class12th.vcxproj|C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class12th\\Source12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D08EC5-D470-4F02-90C9-54433E045FB3}|Class12th\\Class12th.vcxproj|solutionrelative:Class12th\\Source12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source12.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class12th\\Source12.cpp",
+              "RelativeDocumentMoniker": "Class12th\\Source12.cpp",
+              "ToolTip": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Class12th\\Source12.cpp",
+              "RelativeToolTip": "Class12th\\Source12.cpp",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-25T09:12:49.661Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Program\\Program1.cpp",
               "ToolTip": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Program\\Program1.cpp",
               "RelativeToolTip": "Program\\Program1.cpp",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T09:09:05.44Z",
               "EditorCaption": ""
