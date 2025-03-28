@@ -1,3 +1,2 @@
 ﻿  Program1.cpp
-C:\Users\juno0\OneDrive\바탕 화면\Algorithn\Program\Program\Program1.cpp(45,1): warning C4172: 지역 변수 또는 임시 : count의 주소를 반환하는 중
   Program.vcxproj -> C:\Users\juno0\OneDrive\바탕 화면\Algorithn\Program\x64\Debug\Program.exe
