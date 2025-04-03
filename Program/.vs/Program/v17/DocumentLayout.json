@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|solutionrelative:Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program1.cpp",
-              "DocumentMoniker": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Program\\Program1.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Program\\Program1.cpp",
               "RelativeDocumentMoniker": "Program\\Program1.cpp",
-              "ToolTip": "C:\\Users\\juno0\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Algorithn\\Program\\Program\\Program1.cpp",
+              "ToolTip": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Program\\Program1.cpp",
               "RelativeToolTip": "Program\\Program1.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T09:09:05.44Z",
               "EditorCaption": ""

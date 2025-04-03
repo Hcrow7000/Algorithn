@@ -1,10 +1,10 @@
 #include <iostream>
+#include <algorithm>
 #include <vector>
-#include <queue>
 
 using namespace std;
 
-#define SIZE 7
+#define SIZE 8
 
 class Kruskal
 {
@@ -16,13 +16,24 @@ private:
 		int vertexY;
 		int weight;
 	public:
-		Edge(int vertexX,int vertexY)
+		Edge(int vertexX,int vertexY,int weight)
 		{
 			this->vertexX = vertexX;
 			this->vertexY = vertexY;
 			this->weight = weight;
 
 		}
+
+		const int& VertexX() { return vertexX; }
+		const int& VertexY() { return vertexY; }
+		const int& Weight() { return weight; }
+
+		const bool& operator < (const Edge& edge)
+		{
+			return weight < edge.weight;
+
+		}
+
 	};
 
 	int cost;
@@ -31,7 +42,7 @@ private:
 	vector<Edge> nodeList;
 
 public:
-	Kurskal()
+	Kruskal()
 	{
 		cost = 0;
 
@@ -41,6 +52,42 @@ public:
 		}
 	}
 	
+	int Find(int x)
+	{
+		if (x == parent[x])
+		{
+			return x;
+		}
+		else
+		{
+			return parent[x] = Find(parent[x]);
+		}
+
+	}
+
+	void Union(int x, int y)
+	{
+		x = Find(x);
+		y = Find(y);
+
+		if (x == y) { return; }
+
+		if (x < y)
+		{
+			parent[y] = x;
+		}
+		else
+		{
+			parent[x] = y;
+		}
+	}
+
+	bool same(int x, int y)
+	{
+		return Find(x) == Find(y);
+	}
+
+
 	void insert(int  vertexX, int vertexY, int weight)
 	{
 		Edge edge(vertexX, vertexY, weight);
@@ -49,7 +96,23 @@ public:
 
 	}
 
+	void calculate()
+	{
+		sort(nodeList.begin(), nodeList.end());
 
+		for (int i = 0;i < nodeList.size();i++)
+		{
+			if (same(nodeList[i].VertexX(), nodeList[i].VertexY()) == false)
+			{
+				cost += nodeList[i].Weight();
+
+				Union(nodeList[i].VertexX(), nodeList[i].VertexY());
+
+			}
+		}
+
+		cout << "Cost : " << cost << endl;
+ 	}
 };
 
 
@@ -80,7 +143,7 @@ int main()
 	kruskal.insert(5, 6, 48);
 	kruskal.insert(3, 6, 36);
 	
-
+	kruskal.calculate();
 
 #pragma endregion 
 	
