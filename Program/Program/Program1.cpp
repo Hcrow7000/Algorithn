@@ -4,147 +4,79 @@
 
 using namespace std;
 
-#define SIZE 8
+#define SIZE 6
+#define INFINITY 1000000
 
-class Kruskal
+class Dijkctra
 {
 private:
-	class Edge
+	int node[SIZE][SIZE] =
 	{
-	private:
-		int vertexX;
-		int vertexY;
-		int weight;
-	public:
-		Edge(int vertexX,int vertexY,int weight)
-		{
-			this->vertexX = vertexX;
-			this->vertexY = vertexY;
-			this->weight = weight;
-
-		}
-
-		const int& VertexX() { return vertexX; }
-		const int& VertexY() { return vertexY; }
-		const int& Weight() { return weight; }
-
-		const bool& operator < (const Edge& edge)
-		{
-			return weight < edge.weight;
-
-		}
-
+		{0,2,5,1,INFINITY,INFINITY},
+		{2,0,3,2,INFINITY,INFINITY},
+		{5,3,0,3,1,5},
+		{1,2,3,0,1,INFINITY},
+		{INFINITY,INFINITY,1,1,0,2},
+		{INFINITY,INFINITY,5,INFINITY,2,0},
 	};
 
-	int cost;
-	int parent[SIZE];	
-
-	vector<Edge> nodeList;
+	bool visited[SIZE];
+	int distance[SIZE];
 
 public:
-	Kruskal()
+	Dijkctra()
 	{
-		cost = 0;
-
 		for (int i = 0; i < SIZE; i++)
 		{
-			parent[i] = i;
+			visited[i] = false;
+			distance[i] = 0;
 		}
 	}
+
+	const int& Find()
+	{
 	
-	int Find(int x)
-	{
-		if (x == parent[x])
-		{
-			return x;
-		}
-		else
-		{
-			return parent[x] = Find(parent[x]);
-		}
-
 	}
 
-	void Union(int x, int y)
+	void calculate(int start)
 	{
-		x = Find(x);
-		y = Find(y);
-
-		if (x == y) { return; }
-
-		if (x < y)
-		{
-			parent[y] = x;
-		}
-		else
-		{
-			parent[x] = y;
-		}
-	}
-
-	bool same(int x, int y)
-	{
-		return Find(x) == Find(y);
-	}
-
-
-	void insert(int  vertexX, int vertexY, int weight)
-	{
-		Edge edge(vertexX, vertexY, weight);
 		
-		nodeList.push_back(edge);
-
 	}
-
-	void calculate()
-	{
-		sort(nodeList.begin(), nodeList.end());
-
-		for (int i = 0;i < nodeList.size();i++)
-		{
-			if (same(nodeList[i].VertexX(), nodeList[i].VertexY()) == false)
-			{
-				cost += nodeList[i].Weight();
-
-				Union(nodeList[i].VertexX(), nodeList[i].VertexY());
-
-			}
-		}
-
-		cout << "Cost : " << cost << endl;
- 	}
 };
-
-
 
 int main() 
 {
-#pragma region 최소 신장 트리 (MST,Minimum Spanning Tree)
-	// 그래프의 모든 정점을 포함하면서 사이클이 존재하지 않는
-	// 부분 그래프로, 그래프의 모든 정점을 최소 비용으로 연결하는 트리입니다.
-
-	// 그래프의 정점의 수가 n개일 때, 간선의 수는 n-1개 입니다.
-
-	Kruskal kruskal;
-
-	kruskal.insert(1, 7, 10);
-	kruskal.insert(4, 7, 14);
+#pragma region 다익스트라 알고리즘
+	// 시작점으로부터 모든 노드까지의
+	// 최소거리를 구해주는 알고리즘입니다.
 	
-	kruskal.insert(1, 4, 30);
-	kruskal.insert(2, 4, 25);
+	// 1. 거리배열에 weight[시작노드]의
+	// 값들로 초기화합니다.
 
-	kruskal.insert(1, 2, 64);
-	kruskal.insert(1, 5, 19);
+	// 2. 시작점을 방문 처리합니다.
 
-	kruskal.insert(5, 7, 73);
-	kruskal.insert(2, 5, 61);
-
-	kruskal.insert(5, 3, 22);
-	kruskal.insert(5, 6, 48);
-	kruskal.insert(3, 6, 36);
+	// 3. 거리 배열에서 최소 비용 노드를 찾고 방문 처리함.
+	// 단, 이미 방문한 노드는 제외
 	
-	kruskal.calculate();
+	// 4. 최소 비용 노드를 거쳐갈지 고민해서 거리 배열을 갱신함
+	// 단, 이미 방문한 노드는 제외
 
+	// 5. 모든 노드를 방문할 때가지 3번~4번을 반복함
+	
+	// 방문하지 않은 노드 중에서 가장 작은 거리를 가진 
+	// 노드를 방문, 그 노드와 연결된 다른 노드까지의 거리를 계산함.
+	
+	Dijkctra dijkctra;
+
+
+	dijkctra.calculate(1);
+
+
+
+
+
+
+	cout << "distance : " << << endl;
 #pragma endregion 
 	
 	return 0;
