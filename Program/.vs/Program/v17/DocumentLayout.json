@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{74A60913-040E-4340-B859-D50C84F9DF71}|Program\\Program.vcxproj|solutionrelative:Program\\Program1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDAE40B2-C116-401E-B973-7AC2E5C04DF2}|Class 19th\\Class 19th.vcxproj|C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class 19th\\Source19.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EDAE40B2-C116-401E-B973-7AC2E5C04DF2}|Class 19th\\Class 19th.vcxproj|solutionrelative:Class 19th\\Source19.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74703EB6-909F-42B5-80F3-5B556DDD9548}|Class15th\\Class15th.vcxproj|C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class15th\\Source15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{74703EB6-909F-42B5-80F3-5B556DDD9548}|Class15th\\Class15th.vcxproj|solutionrelative:Class15th\\Source15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{300F80F9-FDB0-4C98-AB1C-25234E4242BE}|Class 20th\\Class 20th.vcxproj|C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class 20th\\Source20.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{300F80F9-FDB0-4C98-AB1C-25234E4242BE}|Class 20th\\Class 20th.vcxproj|solutionrelative:Class 20th\\Source20.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Source19.cpp",
-              "DocumentMoniker": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class 19th\\Source19.cpp",
-              "RelativeDocumentMoniker": "Class 19th\\Source19.cpp",
-              "ToolTip": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class 19th\\Source19.cpp",
-              "RelativeToolTip": "Class 19th\\Source19.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAF8AAAAbAAAAAAAAAA==",
+              "Title": "Source20.cpp",
+              "DocumentMoniker": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class 20th\\Source20.cpp",
+              "RelativeDocumentMoniker": "Class 20th\\Source20.cpp",
+              "ToolTip": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class 20th\\Source20.cpp",
+              "RelativeToolTip": "Class 20th\\Source20.cpp",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwHoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-04T09:05:13.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source15.cpp",
-              "DocumentMoniker": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class15th\\Source15.cpp",
-              "RelativeDocumentMoniker": "Class15th\\Source15.cpp",
-              "ToolTip": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Class15th\\Source15.cpp",
-              "RelativeToolTip": "Class15th\\Source15.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-04T10:08:01.782Z",
+              "WhenOpened": "2025-04-07T09:31:55.166Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +41,7 @@
               "RelativeDocumentMoniker": "Program\\Program1.cpp",
               "ToolTip": "C:\\Users\\juno0\\Desktop\\Algorithn\\Program\\Program\\Program1.cpp",
               "RelativeToolTip": "Program\\Program1.cpp",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T09:09:05.44Z",
               "EditorCaption": ""

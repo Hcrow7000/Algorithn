@@ -24,7 +24,7 @@
     <ProjectGuid>{cf6f5b8b-1de0-487c-b151-6dbd36ffd31b}</ProjectGuid>
     <RootNamespace>Class8th</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Class8th</ProjectName>
+    <ProjectName>Class 8th</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

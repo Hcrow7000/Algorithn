@@ -24,6 +24,7 @@
     <ProjectGuid>{b9d60b0e-af1a-4553-b580-0064af8594fa}</ProjectGuid>
     <RootNamespace>Class4th미완성</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class 4th</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

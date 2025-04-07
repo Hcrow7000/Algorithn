@@ -24,6 +24,7 @@
     <ProjectGuid>{1bd2cf19-6395-4fa8-a76d-e8d90fb93f52}</ProjectGuid>
     <RootNamespace>Class1thTimeComplexitySpaceCompiexity</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class 1th (Time Complexity &amp; Space Compiexity</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
