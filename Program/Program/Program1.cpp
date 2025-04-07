@@ -18,6 +18,8 @@ int main()
 	// 해가 될만한 기능이 있으면 유망하다.(Promising)
 	// 유망하지 않은 노드에 가지않는다. (Pruning)
 
+	// Simulation
+
 #pragma endregion 
 	
 	return 0;
